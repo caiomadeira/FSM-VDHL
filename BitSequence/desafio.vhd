@@ -1,4 +1,4 @@
--- CAIO MADEIRA
+-- CAIO MADEIRA | 24280006
 --------------------------------------
 -- Biblioteca
 --------------------------------------
@@ -50,7 +50,7 @@ BEGIN
                     NEXT_STATE <= S2;
                 ELSE
                     IF inA = '1' AND inB = '1' THEN
-                        NEXT_STATE <= ACTUAL_STATE;
+                        NEXT_STATE <= S1;
                     ELSIF inB = '0' THEN
                         NEXT_STATE <= S0;
                     END IF;
@@ -62,11 +62,11 @@ BEGIN
                     NEXT_STATE <= S3;
                 ELSE
                     -- Verificar essa linha novamente mais tarde
-                    IF inA = '1' AND inB = '0' THEN
-                        NEXT_STATE <= ACTUAL_STATE;
-                    ELSE
+                    -- IF inA = '1' AND inB = '0' THEN
+                    --     NEXT_STATE <= S2;
+                    -- ELSE
                         NEXT_STATE <= S0;
-                    END IF;
+                    -- END IF;
                 END IF;
 
                 -- S3
@@ -82,11 +82,11 @@ BEGIN
                 IF inA = '0' AND inB = '1' THEN
                     NEXT_STATE <= S5;
                 ELSE
-                    IF inA = '0' AND inB = '1' THEN
-                        NEXT_STATE <= S2;
-                    ELSE
+                    -- IF inA = '0' AND inB = '1' THEN
+                    --     NEXT_STATE <= S2;
+                    -- ELSE
                         NEXT_STATE <= S0;
-                    END IF;
+                    -- END IF;
                 END IF;
 
                 -- S5
@@ -98,6 +98,10 @@ BEGIN
                         NEXT_STATE <= S3;
                     ELSIF inA = '0' AND inB = '1' THEN
                         NEXT_STATE <= S2;
+                    ELSIF inA = '1' AND inB = '1' THEN
+                        NEXT_STATE <= S1;
+                    ELSE
+                        NEXT_STATE <= S0;
                     END IF;
                 END IF;
         END CASE;
