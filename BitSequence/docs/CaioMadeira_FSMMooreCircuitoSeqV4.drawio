@@ -181,6 +181,9 @@
         <mxCell id="hg-iedln__fok776gCNz-12" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;A = 1 AND B = 0&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="20" y="378.78999999999996" width="160" height="30.34" as="geometry" />
         </mxCell>
+        <mxCell id="hg-iedln__fok776gCNz-13" value="&lt;span style=&quot;font-size: 27px;&quot;&gt;- Em vermelho: Situações de retorno a um estado anterior&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-430" y="10" width="370" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
