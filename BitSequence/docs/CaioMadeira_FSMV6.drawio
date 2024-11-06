@@ -143,8 +143,8 @@
         <mxCell id="1OENyqT5GAdR2yC9RkHn-1" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;B = 0&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="257.5" y="-20" width="115" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Ctu_GQ60YnpbgzEwKwgF-4" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;A = 0 AND B = 1 (Potencial inicio de sequencia)&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="890" y="450" width="210" height="100" as="geometry" />
+        <mxCell id="Ctu_GQ60YnpbgzEwKwgF-4" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;A = 0 AND B = 1&amp;nbsp;&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="890" y="450" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ctu_GQ60YnpbgzEwKwgF-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="tQddnmzMiFavjvR3CnS6-5" target="tQddnmzMiFavjvR3CnS6-5" edge="1">
           <mxGeometry relative="1" as="geometry">
