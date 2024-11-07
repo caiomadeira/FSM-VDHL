@@ -1,0 +1,562 @@
+# //  ModelSim SE-64 2021.3 Jul 13 2021 Linux 5.10.0-26-amd64
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+do sim.do
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 20:59:40 on Nov 06,2024
+# vcom -reportprogress 300 -work work desafio.vhd 
+# ** Error: (vcom-7) Failed to open design unit file "desafio.vhd" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 20:59:40 on Nov 06,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+# Error in macro ./sim.do line 5
+# /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work desafio.vhd"
+do sim.do
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 20:59:54 on Nov 06,2024
+# vcom -reportprogress 300 -work work desafio.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity desafio
+# -- Compiling architecture behaviour of desafio
+# End time: 20:59:54 on Nov 06,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 20:59:54 on Nov 06,2024
+# vcom -reportprogress 300 -work work tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb
+# -- Compiling architecture behavior of tb
+# -- Loading entity desafio
+# End time: 20:59:54 on Nov 06,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ns work.tb 
+# Start time: 20:59:54 on Nov 06,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb(behavior)#1
+# Loading work.desafio(behaviour)#1
+# 1
+# 1
+# ** Note: test_vector 9 failed '0' --> '1'
+#    Time: 100 ns  Iteration: 0  Instance: /tb
+# ** Note: test_vector 141 failed '0' --> '1'
+#    Time: 1420 ns  Iteration: 0  Instance: /tb
+do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is 24280006@LINUX-EP.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 21:00:36 on Nov 06,2024
+# vcom -reportprogress 300 -work work desafio.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity desafio
+# -- Compiling architecture behaviour of desafio
+# End time: 21:00:36 on Nov 06,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 21:00:36 on Nov 06,2024
+# vcom -reportprogress 300 -work work tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb
+# -- Compiling architecture behavior of tb
+# -- Loading entity desafio
+# End time: 21:00:36 on Nov 06,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 21:00:37 on Nov 06,2024, Elapsed time: 0:00:43
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ns work.tb 
+# Start time: 21:00:37 on Nov 06,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb(behavior)#1
+# Loading work.desafio(behaviour)#1
+# 1
+# 1
+# ** Note: test_vector 9 failed '0' --> '1'
+#    Time: 100 ns  Iteration: 0  Instance: /tb
+# ** Note: test_vector 141 failed '0' --> '1'
+#    Time: 1420 ns  Iteration: 0  Instance: /tb
+do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is 24280006@LINUX-EP.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 21:01:20 on Nov 06,2024
+# vcom -reportprogress 300 -work work desafio.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity desafio
+# -- Compiling architecture behaviour of desafio
+# ** Error: desafio.vhd(43): near ":": (vcom-1576) expecting WHEN.
+# ** Note: desafio.vhd(52): VHDL Compiler exiting
+# End time: 21:01:21 on Nov 06,2024, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+# Error in macro ./sim.do line 5
+# /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work desafio.vhd"
+do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is 24280006@LINUX-EP.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 21:02:08 on Nov 06,2024
+# vcom -reportprogress 300 -work work desafio.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity desafio
+# -- Compiling architecture behaviour of desafio
+# ** Error: desafio.vhd(99): near ":": (vcom-1576) expecting WHEN.
+# ** Note: desafio.vhd(108): VHDL Compiler exiting
+# End time: 21:02:08 on Nov 06,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+# Error in macro ./sim.do line 5
+# /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work desafio.vhd"
+do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is 24280006@LINUX-EP.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 21:02:21 on Nov 06,2024
+# vcom -reportprogress 300 -work work desafio.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity desafio
+# -- Compiling architecture behaviour of desafio
+# ** Error: desafio.vhd(65): Case choice "A1" has already been specified on line 56.
+# ** Note: desafio.vhd(154): VHDL Compiler exiting
+# End time: 21:02:21 on Nov 06,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+# Error in macro ./sim.do line 5
+# /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work desafio.vhd"
+do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is 24280006@LINUX-EP.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 21:03:08 on Nov 06,2024
+# vcom -reportprogress 300 -work work desafio.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity desafio
+# -- Compiling architecture behaviour of desafio
+# End time: 21:03:08 on Nov 06,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 21:03:08 on Nov 06,2024
+# vcom -reportprogress 300 -work work tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb
+# -- Compiling architecture behavior of tb
+# -- Loading entity desafio
+# End time: 21:03:08 on Nov 06,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 21:03:09 on Nov 06,2024, Elapsed time: 0:02:32
+# Errors: 3, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ns work.tb 
+# Start time: 21:03:09 on Nov 06,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb(behavior)#1
+# Loading work.desafio(behaviour)#1
+# 1
+# 1
+# ** Note: test_vector 141 failed '0' --> '1'
+#    Time: 1420 ns  Iteration: 0  Instance: /tb
+# ** Note: test_vector 144 failed '0' --> '1'
+#    Time: 1450 ns  Iteration: 0  Instance: /tb
+do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is 24280006@LINUX-EP.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 21:06:01 on Nov 06,2024
+# vcom -reportprogress 300 -work work desafio.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity desafio
+# -- Compiling architecture behaviour of desafio
+# End time: 21:06:01 on Nov 06,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 21:06:01 on Nov 06,2024
+# vcom -reportprogress 300 -work work tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb
+# -- Compiling architecture behavior of tb
+# -- Loading entity desafio
+# End time: 21:06:01 on Nov 06,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 21:06:02 on Nov 06,2024, Elapsed time: 0:02:53
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ns work.tb 
+# Start time: 21:06:02 on Nov 06,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb(behavior)#1
+# Loading work.desafio(behaviour)#1
+# 1
+# 1
+# ** Note: test_vector 9 failed '0' --> '1'
+#    Time: 100 ns  Iteration: 0  Instance: /tb
+# ** Note: test_vector 141 failed '0' --> '1'
+#    Time: 1420 ns  Iteration: 0  Instance: /tb
+# ** Note: test_vector 144 failed '0' --> '1'
+#    Time: 1450 ns  Iteration: 0  Instance: /tb
+# Break key hit
+do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is 24280006@LINUX-EP.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 21:07:26 on Nov 06,2024
+# vcom -reportprogress 300 -work work desafio.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity desafio
+# -- Compiling architecture behaviour of desafio
+# End time: 21:07:26 on Nov 06,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 21:07:26 on Nov 06,2024
+# vcom -reportprogress 300 -work work tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb
+# -- Compiling architecture behavior of tb
+# -- Loading entity desafio
+# End time: 21:07:27 on Nov 06,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 21:07:27 on Nov 06,2024, Elapsed time: 0:01:25
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ns work.tb 
+# Start time: 21:07:27 on Nov 06,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb(behavior)#1
+# Loading work.desafio(behaviour)#1
+# 1
+# 1
+# ** Note: test_vector 141 failed '0' --> '1'
+#    Time: 1420 ns  Iteration: 0  Instance: /tb
+# ** Note: test_vector 144 failed '0' --> '1'
+#    Time: 1450 ns  Iteration: 0  Instance: /tb
+do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is 24280006@LINUX-EP.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 21:20:40 on Nov 06,2024
+# vcom -reportprogress 300 -work work desafio.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity desafio
+# -- Compiling architecture behaviour of desafio
+# ** Error: desafio.vhd(169): near "PROCESS": (vcom-1576) expecting IF.
+# End time: 21:20:40 on Nov 06,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+# Error in macro ./sim.do line 5
+# /soft64/mentor/ferramentas/modelsim/2021/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work desafio.vhd"
+do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is 24280006@LINUX-EP.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 21:21:24 on Nov 06,2024
+# vcom -reportprogress 300 -work work desafio.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity desafio
+# -- Compiling architecture behaviour of desafio
+# End time: 21:21:24 on Nov 06,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 21:21:25 on Nov 06,2024
+# vcom -reportprogress 300 -work work tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb
+# -- Compiling architecture behavior of tb
+# -- Loading entity desafio
+# End time: 21:21:25 on Nov 06,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 21:21:25 on Nov 06,2024, Elapsed time: 0:13:58
+# Errors: 1, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ns work.tb 
+# Start time: 21:21:25 on Nov 06,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb(behavior)#1
+# Loading work.desafio(behaviour)#1
+# 1
+# 1
+# ** Note: test_vector 9 failed '0' --> '1'
+#    Time: 100 ns  Iteration: 0  Instance: /tb
+# ** Note: test_vector 141 failed '0' --> '1'
+#    Time: 1420 ns  Iteration: 0  Instance: /tb
+# ** Note: test_vector 144 failed '0' --> '1'
+#    Time: 1450 ns  Iteration: 0  Instance: /tb
+do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is 24280006@LINUX-EP.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 21:21:47 on Nov 06,2024
+# vcom -reportprogress 300 -work work desafio.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity desafio
+# -- Compiling architecture behaviour of desafio
+# End time: 21:21:47 on Nov 06,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 21:21:47 on Nov 06,2024
+# vcom -reportprogress 300 -work work tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb
+# -- Compiling architecture behavior of tb
+# -- Loading entity desafio
+# End time: 21:21:47 on Nov 06,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 21:21:48 on Nov 06,2024, Elapsed time: 0:00:23
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ns work.tb 
+# Start time: 21:21:48 on Nov 06,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb(behavior)#1
+# Loading work.desafio(behaviour)#1
+# 1
+# 1
+# ** Note: test_vector 9 failed 'X' --> '1'
+#    Time: 100 ns  Iteration: 0  Instance: /tb
+# ** Note: test_vector 141 failed '0' --> '1'
+#    Time: 1420 ns  Iteration: 0  Instance: /tb
+# ** Note: test_vector 144 failed '0' --> '1'
+#    Time: 1450 ns  Iteration: 0  Instance: /tb
+do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is 24280006@LINUX-EP.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2021.3 Lib Mapping Utility 2021.07 Jul 13 2021
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 21:22:28 on Nov 06,2024
+# vcom -reportprogress 300 -work work desafio.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity desafio
+# -- Compiling architecture behaviour of desafio
+# End time: 21:22:28 on Nov 06,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 21:22:28 on Nov 06,2024
+# vcom -reportprogress 300 -work work tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb
+# -- Compiling architecture behavior of tb
+# -- Loading entity desafio
+# End time: 21:22:28 on Nov 06,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 21:22:29 on Nov 06,2024, Elapsed time: 0:00:41
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc=lprn" -t ns work.tb 
+# Start time: 21:22:29 on Nov 06,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb(behavior)#1
+# Loading work.desafio(behaviour)#1
+# 1
+# 1
+# ** Note: test_vector 141 failed '0' --> '1'
+#    Time: 1420 ns  Iteration: 0  Instance: /tb
+# ** Note: test_vector 144 failed '0' --> '1'
+#    Time: 1450 ns  Iteration: 0  Instance: /tb
+ls
+# desafio.vhd
+# desktop.ini
+# modelsim.ini
+# sim.do
+# tb.vhd
+# transcript
+# vsim.wlf
+# wave.do
+# work
+cd ..
+# Cannot change directory while a simulation is in progress.
+# Use the "quit -sim" command to unload the design first.
+cd ..
+# Cannot change directory while a simulation is in progress.
+# Use the "quit -sim" command to unload the design first.
+ls
+# desafio.vhd
+# desktop.ini
+# modelsim.ini
+# sim.do
+# tb.vhd
+# transcript
+# vsim.wlf
+# wave.do
+# work
+# End time: 21:25:03 on Nov 06,2024, Elapsed time: 0:02:34
+# Errors: 0, Warnings: 0
